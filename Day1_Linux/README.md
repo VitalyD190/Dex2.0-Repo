@@ -3,18 +3,12 @@ DevOps curse
 
 # PART 1 INSTALLATION VM solution Part 1: VirtualBox & Ubuntu Installation
 
-![image](https://github.com/user-attachments/assets/b105b835-2078-44a9-aace-0728ede085aa)
-
-![image](https://github.com/user-attachments/assets/2e147a9d-5e18-45dc-a5f7-e646951cfc9c)
-
-![image](https://github.com/user-attachments/assets/2bafdc26-f439-4ce8-8a0f-67b1445f4b8e)
-
-![image](https://github.com/user-attachments/assets/ea137514-c2da-46f9-8254-69fad91e1e95)
+![image](https://github.com/user-attachments/assets/48b56046-0828-467e-9b2e-a806c58cd7a2)
 
 
 # Linux File Creation, and Command Usage 
 
-### Part 2: Linux Directory and File Creation ** SCREENSHOT FOR ALL PART 2**
+### Part 2: Linux Directory and File Creation ** SCREENSHOT FOR ALL PART HOMEWORK at the end **
 
 ```bash
 mkdir -p ~/homework/{dir1,dir2,dir3}
@@ -55,7 +49,7 @@ These commands add content to each file using the `echo` command and output redi
 ### grep Command
 
 ```bash
-grep "Harari" ~/homework/dir1/*.txt
+grep "vitaly" ~/homework/dir1/*.txt
 ```
 
 This command searches for the word "content" in all `.txt` files in the `dir1` directory.
@@ -64,7 +58,7 @@ This command searches for the word "content" in all `.txt` files in the `dir1` d
 - `*.txt`: Wildcard to match all `.txt` files
 - 
   
-![image](https://github.com/user-attachments/assets/ae4df146-347a-4feb-a7cc-58ffa88ac6a2)
+
 
 ```bash
 grep -i "file1" ~/homework/dir1/*.txt
@@ -93,9 +87,8 @@ This command finds all `.txt` files in the `homework` directory and its subdirec
 
 - `-name`: Allows specifying a pattern to match filenames
 
-###  **THIS SCREENSHOT FOR ALL PART 3**
+###  ** PART 3**
 
-![image](https://github.com/user-attachments/assets/5ea03e93-e366-4eab-bf0c-6fed53320401)
 
 
 ```bash
@@ -107,7 +100,6 @@ This command finds files modified within the last 7 days in the `homework` direc
 - `-type f`: Specifies that we're looking for files (not directories)
 - `-mtime -7`: Means "modified time less than 7 days ago"
 
-[Screenshot of find command for recently modified files and output]
+![image](https://github.com/user-attachments/assets/ec3a7afb-0433-4161-b2cf-d0a6ff1bf247)
 
 
-Part 4: Documenting the Steps at this readme.md file :) 
